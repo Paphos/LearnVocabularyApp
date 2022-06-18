@@ -42,6 +42,8 @@ function Header(){
         margin: '15px'
       }}>
         Last update: {process.env.REACT_APP_LASTUPDATE}
+        <br/>
+        <a style={{textDecoration: 'underline'}} href="https://github.com/Paphos/LearnVocabularyApp">Source code</a>
       </div>
     </div>
   )
