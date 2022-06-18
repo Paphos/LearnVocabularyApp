@@ -1,0 +1,26 @@
+{
+  "short_name": "Korean Vocabulary AR1011",
+  "name": "Korean Vocabulary AR1011",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "1024x1024 512x512 256x256 192x192 150x150 128x128 96x96 72x72 64x64 48x48 32x32",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "description": "Korean Vocabulary AR1011",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF"
+}

@@ -1,0 +1,23 @@
+.btn-type1 {
+    color: #EEE;
+    background-color: #222;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 13px 0;
+    font-weight: normal;
+    width: 75%;
+    font-weight: 600;
+    font-family: 'Muli';
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.5;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: middle;
+  
+    &:hover, &:focus {
+        background-color: #444;
+    }
+}

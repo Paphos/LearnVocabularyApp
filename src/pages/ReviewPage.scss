@@ -1,0 +1,63 @@
+.word-source{
+    color: #000;
+
+    &.ko-lang{
+        font-size: 70px;
+    }
+    &:not(.ko-lang){
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+
+.word-revealed{
+    margin: 15px;
+    color: #222;
+    transform: translateY(15px);
+
+    &.ko-lang{
+        font-size: 70px;
+    }
+    &:not(.ko-lang){
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+
+
+
+.btn-reveal {
+    color: #222;
+    background-color: transparent;
+    border: 1px solid #222;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 200px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 15px;
+    text-align: center;
+    vertical-align: middle;
+  
+    &:hover, &:focus {
+        background-color: #EEE;
+    }
+}
+
+.move-button{
+    padding: 5px 10px;
+    background-color: #222;
+    color: #EEE;
+    border-radius: 15px;
+
+    &:disabled{
+        background-color: #888;
+        color: #BBB;
+    }
+}
+
+.word-counter{
+    font-size: 30px;
+    font-family: 'Muli';
+    color: #444;
+}

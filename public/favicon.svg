@@ -1,0 +1,25 @@
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Flag of South Korea</title>
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_13" height="83.05331" width="83.38888" y="-1.00689" x="-0.97296" stroke-width="0" fill="#ffffff"/>
+  <g transform="rotate(-56.3099 39.5034 38.3423)" id="svg_2">
+   <!--arctan(-3/2)-->
+   <g id="b2">
+    <path d="m33.50335,12.34228l12,0l0,2l-12,0l0,-2zm0,3l12,0l0,2l-12,0l0,-2zm0,3l12,0l0,2l-12,0l0,-2z" id="b"/>
+    <use x="0" id="svg_3" y="44" xlink:href="#b"/>
+   </g>
+   <path id="svg_4" d="m39.50335,55.34228l0,10" stroke="#fff"/>
+   <path id="svg_5" d="m39.50335,26.34228a12,12 0 0 1 0,24l0,-24z" fill="#cd2e3a"/>
+   <path id="svg_6" d="m39.50335,26.34228a12,12 0 0 0 0,24a6,6 0 0 0 0,-12l0,-12z" fill="#0047a0"/>
+   <circle cx="39.50335" id="svg_7" r="6" fill="#cd2e3a" cy="32.34228"/>
+  </g>
+  <g transform="rotate(-123.69 29 91.8389)" id="svg_8">
+   <use x="29" y="91.83892" id="svg_9" xlink:href="#b2"/>
+   <path id="svg_10" d="m29,68.33892l0,3m0,37.5l0,3.5m0,3l0,3" stroke="#fff"/>
+  </g>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Archivo'" font-size="18" stroke-width="0" id="svg_11" y="74.26122" x="8.0874" fill="#ff3f3f">AR1011</text>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Archivo'" font-size="16" stroke-width="0" id="svg_12" y="14.69774" x="11.44309" fill="#000000">VOCAB</text>
+ </g>
+</svg>

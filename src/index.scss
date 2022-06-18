@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700');
+
+body {
+  margin: 0;
+  color: #222;
+  font-family: 'Archivo', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+html { 
+  background-color: #FFFFFF;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+*:focus {
+  outline: none;
+}
