@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { HomePage } from 'pages/HomePage';
 import { ReviewPage } from 'pages/ReviewPage';
+import { WordListPage } from "pages/WordListPage";
 import { ToastContainer } from 'react-toastify';
 import HomeIcon from '@mui/icons-material/Home';
 import { Link } from "react-router-dom";
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
         <Route index={true} element={<HomePage />} />
         <Route path='/review' element={<ReviewPage />} />
+        <Route path='/word-list' element={<WordListPage />} />
         <Route path='*' element={<Navigate to="/" replace />} />
       </Routes>
       <ToastContainer/>

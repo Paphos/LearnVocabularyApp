@@ -1,0 +1,15 @@
+.word-list-table{
+    margin: 10px;
+    border-collapse: collapse;
+
+    td{
+        padding: 1px 5px;
+        border: 1px solid #CCC;
+    }
+}
+
+.search-text-input{
+    font-size: 16px;
+    padding: 8px;
+    width: calc(100% - 20px);
+}

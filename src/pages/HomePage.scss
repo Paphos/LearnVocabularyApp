@@ -1,6 +1,4 @@
-.btn-type1 {
-    color: #EEE;
-    background-color: #222;
+.btn-home {
     border-radius: 20px;
     font-size: 20px;
     margin: 13px 0;
@@ -16,8 +14,22 @@
     text-decoration: none;
     user-select: none;
     vertical-align: middle;
-  
+}
+
+.btn-type1 {
+    color: #EEE;
+    background-color: #222;
+   
     &:hover, &:focus {
         background-color: #444;
+    }
+}
+
+.btn-type2 {
+    color: #EEE;
+    background-color: rgb(30, 30, 74);
+    
+    &:hover, &:focus {
+        background-color: rgb(70, 68, 92);
     }
 }

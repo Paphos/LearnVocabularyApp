@@ -4,6 +4,7 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import { useKeyPress } from 'components/useKeyPress';
+import { parseVocabularyFile, shuffle } from 'components/vocabulary';
 
 import './ReviewPage.scss';
 
@@ -39,7 +40,7 @@ export function ReviewPage() {
     fetch('/database/vocabulary.csv')
       .then((r) => r.text())
       .then(text  => {
-        var vocab = parseVocabularyFile(text);
+        var vocab = shuffle(parseVocabularyFile(text));
         setVocabulary(vocab);
       })  
   }, [setVocabulary]);
@@ -147,39 +148,4 @@ function WordGuessComponent({wordObject, sourceLangCode, targetLangCode, isWordH
       </div>
     </div>
   );
-}
-
-function parseVocabularyFile(rawText){
-  const lines = rawText.split(/\r\n|\n/);
-  const vocabList = [];
-  for (let i = 0; i < lines.length; i++) {
-    if (!lines[i])
-      continue;
-    const row = lines[i].split(';');
-    vocabList.push({
-      ko: row[0],
-      en: row[1],
-      fr: row[2],
-    })
-  }
-  return shuffle(vocabList);
-}
-
-// https://stackoverflow.com/a/2450976
-function shuffle(array) {
-  let currentIndex = array.length,  randomIndex;
-
-  // While there remain elements to shuffle.
-  while (currentIndex !== 0) {
-
-    // Pick a remaining element.
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
 }
