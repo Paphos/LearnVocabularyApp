@@ -115,7 +115,7 @@
 군인;soldier;un soldat
 기자;journalist;un.e journaliste
 우체국;post office;un bureau de poste
-목욕탕;public baths / bathhouse;des bains publics
+목욕탕;public baths / bathroom;bains publics / salle de bain
 편의점;convenient store;convenient store
 회사;a company;une entreprise
 사무실;an office;des bureaux (d’entreprise)
@@ -160,3 +160,35 @@
 왜;why?;pourquoi ?
 생일;birthday;l'anniversaire
 침대;bed;un lit
+오전;AM (time);AM (matin)
+오후;PM (time);PM (après-midi)
+아침;morning (~6AM-9AM);le matin (~6H-9H)
+점심;lunchtime, afternoon;lunchtime, après-midi
+저녁;evening;le soir
+밤;night;la nuit
+새벽;night/dawn (~12AM-6AM);le milieu de la nuit/l'aube (~minuit à 6h du matin)
+몇 시여요?;What time is it?;Quelle heure est-il ?
+지금;now;maintenant
+반;half;et demi
+가요;to go;aller
+와요;to come;venir
+이야기해요;to speak, to chat;parler, discuter
+길;a road;une route
+방;a room;une pièce (lieu)
+밖;outside;l'extérieur
+조용해요;quiet, calm;être calme, silencieux
+약속;an appointment;un rendez-vous
+식사해요;to eat;manger
+전화해요;to make a phone call;téléphoner à qq'un
+숙제해요;to do homework;faire ses devoirs
+공부해요;to study;étudier
+일해요;to work;travailler
+목욕해요;to take a bath;prendre un bain
+샤워해요;to take a shower;prendre une douche
+요리해요;to cook;cuisiner
+일어나요;to get up, to stand up;se lever
+자요;to sleep;dormir
+세수해요;to wash up;faire sa toilette
+여행해요;to travel;voyager
+수영해요;to swim;nager
+쇼핑해요;to go shopping;faire du shopping
