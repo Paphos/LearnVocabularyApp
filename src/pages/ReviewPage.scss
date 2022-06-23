@@ -61,3 +61,15 @@
     font-family: 'Muli';
     color: #444;
 }
+
+.dictionary-button{
+    padding: 8px 15px;
+    background-color: #042163;
+    color: #EEE;
+    border-radius: 5px;
+    font-size: 13px;
+
+    &:hover{
+        background-color: #073eba;
+    }
+}

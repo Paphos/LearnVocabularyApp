@@ -125,6 +125,7 @@
 서점;bookstore;une librairie
 영화관;cinema;un cinéma
 출입국 외국인 사무소;immigration office;le bureau d’immigration
+집;home;la maison
 학교;school;une école
 교실;classroom;une salle de classe
 은행;bank;la banque
@@ -167,7 +168,7 @@
 저녁;evening;le soir
 밤;night;la nuit
 새벽;night/dawn (~12AM-6AM);le milieu de la nuit/l'aube (~minuit à 6h du matin)
-몇 시여요?;What time is it?;Quelle heure est-il ?
+몇 시예요?;What time is it?;Quelle heure est-il ?
 지금;now;maintenant
 반;half;et demi
 가요;to go;aller
@@ -192,3 +193,8 @@
 여행해요;to travel;voyager
 수영해요;to swim;nager
 쇼핑해요;to go shopping;faire du shopping
+바빠요;busy;occupé
+혼자;alone;seul
+요즘;these days;en ce moment, de nos jours
+보통;usually;habituellement, en général
+수업;class, lesson;les cours, la leçon

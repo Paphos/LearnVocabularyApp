@@ -3,6 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { useKeyPress } from 'components/useKeyPress';
 import { parseVocabularyFile, shuffle } from 'components/vocabulary';
 
@@ -113,6 +114,14 @@ export function ReviewPage() {
               showWordCallback={() => setIsWordHidden(false)}
               isWordHidden={isWordHidden}
             />
+          </div>
+
+          <div style={{ margin: '60px 15px 0 15px', textAlign: 'right' }}>
+            <a className="dictionary-button"
+              href={`https://korean.dict.naver.com/koendict/#/search?query=${currentWord.ko}`}
+              target="_blank" rel="noreferrer">
+              Naver Dictionary <OpenInNewIcon style={{ transform: 'translateY(4px)', fontSize: '17px' }}/>
+            </a>
           </div>
           
         </div>
