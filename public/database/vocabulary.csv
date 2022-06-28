@@ -12,7 +12,7 @@
 러시아;Russia;la Russie
 호주;Australia;l’Australie
 베트남;Vietnam;le Vietnam
-나라;country / nation;un pays
+나라;country, nation;un pays
 직업;a job;un métier
 이분;this person;cette personne
 좋아해요;to like;aimer
@@ -21,17 +21,18 @@
 어디;where?;où ?
 취미;a hobby;un hobby
 이름;name;le nom
+돈;money;de l'argent
 칠반;blackboard;un tableau noir
 분필;chalk;une craie
 이어폰;earphones;des écouteurs
 문;door;une porte
 창문;window;une fenêtre
-시계;a clock / a watch;une horloge / une montre
+시계;a clock, a watch;une horloge, une montre
 에어컨;air conditioner (AC);la climatisation
 벽;wall;le mur
 볼펜;pen;un stylo
 연필;pencil;un crayon
-지갑;Wallet / purse;un porte-monnaie
+지갑;wallet, purse;un porte-monnaie
 양말;socks;des chaussettes
 우산;umbrella;un parapluie
 귀걸이;earrings;des boucles d’oreilles
@@ -73,7 +74,7 @@
 치마;skirt;une jupe
 누구;who?;qui ?
 풀;glue;de la colle
-칼;knife / box cutter;un couteau / un cutter
+칼;knife, box cutter;un couteau, un cutter
 필통;pencil case;une trousse
 과자;snack;des biscuits
 여권;passport;un passeport
@@ -98,7 +99,7 @@
 의자;chair;une chaise
 빵;bread;du pain
 텔레비전;television;la télévision
-컵;a cup;une tasse / un mug
+컵;a cup;une tasse, un mug
 커피;coffee;du café
 컴퓨터;computer;un ordinateur
 라디오;radio;une radio
@@ -106,16 +107,16 @@
 의사;doctor;un.e médecin
 선생님;teacher;un.e professeur
 회사원;office worker;un.e employé.e de bureau
-가수;singer;un chanteur / une chanteuse
+가수;singer;un chanteur, une chanteuse
 간호사;nurse;un.e infirmier.e
-영화배우;film actor;un acteur / une actrice
+영화배우;film actor;un acteur, une actrice
 요리사;a cook;un.e cuisinier.e
 운전기사;a driver;un chauffeur
 경찰;police officer;un.e policier.e
 군인;soldier;un soldat
 기자;journalist;un.e journaliste
 우체국;post office;un bureau de poste
-목욕탕;public baths / bathroom;bains publics / salle de bain
+목욕탕;public baths, bathroom;bains publics, salle de bain
 편의점;convenient store;convenient store
 회사;a company;une entreprise
 사무실;an office;des bureaux (d’entreprise)
@@ -130,20 +131,20 @@
 교실;classroom;une salle de classe
 은행;bank;la banque
 식당;restaurant;un restaurant
-화장실;toilet / restroom;des toilettes
+화장실;toilet, restroom;des toilettes
 병원;hospital;un hôpital
 문구점;stationery store;une papeterie / un magasin de fournitures
 박물관;museum;un musée
 백화점;department store (mall?);un centre commercial / grand magasin
 슈퍼마켓;supermarket;un supermarché
 공항;airport;un aéroport
-장소;a place;un lieu / un endroit
+장소;a place;un lieu, un endroit
 여기;here;ici
-지도;map;une carte (géographique)
+괜찮아요;It's okay.;C'est bon / ça va.
 호텔;hotel;un hôtel
 약국;pharmacy;une pharmacie
 성당;catholic church;une église catholique
-보건실;infirmary / nurse’s office;l’infirmerie
+보건실;infirmary, nurse’s office;l’infirmerie
 고속버스 터미널;Express Bus Terminal;terminal de bus express
 반갑습니다;Nice to meet you.;Ravi de vous rencontrer.
 알아요;to know;savoir
@@ -156,6 +157,7 @@
 친구;friend;un ami
 표;ticket;un ticket
 얼마예요;How much does it cost?;Combien ça coûte ?
+그리고;then;puis, et ensuite
 시간;time;le temps
 언제;when?;quand ?
 왜;why?;pourquoi ?
@@ -202,7 +204,7 @@
 만나다;to meet (someone);rencontrer / voir (des gens)
 보다;to see;voir, regarder
 읽다;to read;lire
-추다;to dance;danser
+춤을 추다;to dance;danser
 마시다;to drink;boire
 가르치다;to teach;enseigner
 빌리다;to borrow;emprunter
@@ -219,3 +221,4 @@
 걷다;to walk;marcher
 등산;hiking;randonnée
 A부터 B까지;from A to B (time);de A à B (temps)
+무슨 요일;what day of the week;quel jour de la semaine

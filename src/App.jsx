@@ -5,6 +5,7 @@ import { WordListPage } from "pages/WordListPage";
 import { ToastContainer } from 'react-toastify';
 import HomeIcon from '@mui/icons-material/Home';
 import { Link } from "react-router-dom";
+import Moment from 'react-moment';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function App() {
@@ -38,12 +39,13 @@ function Header(){
       </Link>
       <div style={{ 
         position: 'absolute',
+        textAlign: 'right',
         top: 0,
         right: 0,
         fontSize: '11px',
         margin: '15px'
       }}>
-        Last update: {process.env.REACT_APP_LASTUPDATE}
+        Last update: <Moment format="YYYY-MM-DD">{process.env.REACT_APP_LASTUPDATE}</Moment> (<Moment fromNow>{process.env.REACT_APP_LASTUPDATE}</Moment>)
         <br/>
         <a style={{textDecoration: 'underline'}} href="https://github.com/Paphos/LearnVocabularyApp">Source code</a>
       </div>
