@@ -1,23 +1,32 @@
 import React, { useState, useEffect } from 'react';
-import { useSearchParams } from "react-router-dom";
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { useKeyPress } from 'components/useKeyPress';
 import { parseVocabularyFile, shuffle } from 'components/vocabulary';
+import { useParams, useSearchParams } from "react-router-dom";
 
 import './ReviewPage.scss';
 
 export function ReviewPage() {
 
+  let { langCode } = useParams();
+
+  if (langCode !== 'en' && langCode !== 'fr'){
+    langCode = 'en';
+  }
+
+  let sourceLangCode = 'ko';
+  let targetLangCode = langCode;
+
   let [searchParams] = useSearchParams();
-  let sourceLangCode = searchParams.get("source");
-  if (!sourceLangCode)
-    sourceLangCode = 'ko';
-  let targetLangCode = searchParams.get("target");
-  if (!targetLangCode)
-    targetLangCode = 'en';
+  let hidden = searchParams.get("hidden");
+  if (hidden === 'target'){
+    sourceLangCode = langCode;
+    targetLangCode = 'ko';
+  }
+
 
 
   const [vocabulary, setVocabulary] = useState(null);

@@ -1,29 +1,35 @@
 import React from 'react';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import { Link } from "react-router-dom";
+import { Link, useParams, Navigate } from "react-router-dom";
 
 import './HomePage.scss';
 
+const langFlagEmojis = {
+  ko: <>&#127472;&#127479;</>,
+  en: <>&#127468;&#127463;</>,
+  fr: <>&#127467;&#127479;</>,
+}
+
 export function HomePage() {
   
+  let { langCode } = useParams();
+
+  if (langCode !== 'en' && langCode !== 'fr'){
+    return (<Navigate to="/en" replace />);
+  }
+
   return (
     <div style={{
       textAlign: 'center',
       marginTop: '35px'
     }}>
-      <Link to={`/review?source=ko&target=en`} className="btn-home btn-type1">
-        <span>한국어 (&#127472;&#127479;) <Arrow/> ___ (&#127468;&#127463;)</span>
+      <Link to={`./review?hidden=source`} className="btn-home btn-type1">
+        <span>{langFlagEmojis.ko} <Arrow/> {langFlagEmojis[langCode]}</span>
       </Link>
-      <Link to={`/review?source=en&target=ko`} className="btn-home btn-type1">
-        <span>English (&#127468;&#127463;) <Arrow/> ___ (&#127472;&#127479;)</span>
+      <Link to={`./review?hidden=target`} className="btn-home btn-type1">
+        <span>{langFlagEmojis[langCode]} <Arrow/> {langFlagEmojis.ko}</span>
       </Link>
-      <Link to={`/review?source=ko&target=fr`} className="btn-home btn-type1">
-        <span>한국어 (&#127472;&#127479;) <Arrow/> ___ (&#127467;&#127479;)</span>
-      </Link>
-      <Link to={`/review?source=fr&target=ko`} className="btn-home btn-type1">
-        <span>Français (&#127467;&#127479;) <Arrow/> ___ (&#127472;&#127479;)</span>
-      </Link>
-      <Link to={`/word-list`} className="btn-home btn-type2">
+      <Link to={`./word-list`} className="btn-home btn-type2">
         <span>Word list</span>
       </Link>
     </div>
