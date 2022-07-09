@@ -27,6 +27,12 @@ export function ReviewPage() {
     targetLangCode = 'ko';
   }
 
+  let topicId = searchParams.get("topicId");
+  if (!topicId){
+    topicId = "objects";
+  }
+
+
 
 
   const [vocabulary, setVocabulary] = useState(null);
@@ -47,13 +53,13 @@ export function ReviewPage() {
 
   // Load vocabulary from CSV file
   useEffect(() => {
-    fetch('/database/vocabulary.csv')
+    fetch(`/database/${topicId}.csv`)
       .then((r) => r.text())
       .then(text  => {
         var vocab = shuffle(parseVocabularyFile(text));
         setVocabulary(vocab);
       })  
-  }, [setVocabulary]);
+  }, [setVocabulary, topicId]);
 
   // Handle arrow key input
   useEffect(() => {

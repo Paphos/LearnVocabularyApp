@@ -22,7 +22,6 @@ export function HomePage() {
     <div style={{
       marginTop: '5px'
     }}>
-      <Line langCode={langCode} topicName={<>~~~~ ALL ~~~~</>} topicId="all" />
       <Line langCode={langCode} topicName={<>Objects &#128230;</>} topicId="objects" />
       <Line langCode={langCode} topicName={<>Places &#127969;</>} topicId="places" />
       <Line langCode={langCode} topicName={<>Jobs &#128104;&#8205;&#127859;</>} topicId="jobs" />
@@ -39,13 +38,13 @@ function Line({langCode, topicName, topicId}){
     }}>
       <div className="topic-title">{topicName}</div>
       <div>
-        <Link to={`./review?hidden=source`} className="btn-home btn-type1">
+        <Link to={`./review?hidden=source&topicId=${topicId}`} className="btn-home btn-type1">
           <span>{langFlagEmojis.ko}<Arrow/>{langFlagEmojis[langCode]}</span>
         </Link>
-        <Link to={`./review?hidden=target`} className="btn-home btn-type1">
+        <Link to={`./review?hidden=target&topicId=${topicId}`} className="btn-home btn-type1">
           <span>{langFlagEmojis[langCode]}<Arrow/>{langFlagEmojis.ko}</span>
         </Link>
-        <Link to={`./word-list`} className="btn-home btn-type2">
+        <Link to={`./word-list?topicId=${topicId}`} className="btn-home btn-type2">
           <span>Word list</span>
         </Link>
       </div>

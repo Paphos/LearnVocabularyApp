@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import { parseVocabularyFile } from 'components/vocabulary';
-import { useParams } from "react-router-dom";
+import { useParams, useSearchParams } from "react-router-dom";
 
 import './WordListPage.scss';
 
@@ -14,18 +14,28 @@ export function WordListPage() {
   }
 
 
+  let [searchParams] = useSearchParams();
+  let topicId = searchParams.get("topicId");
+  if (!topicId){
+    topicId = "objects";
+  }
+
+
+
+
+
   const [vocabulary, setVocabulary] = useState(null);
   const [searchText, setSearchText] = useState(null);
 
   // Load vocabulary from CSV file
   useEffect(() => {
-    fetch('/database/vocabulary.csv')
+    fetch(`/database/${topicId}.csv`)
       .then((r) => r.text())
       .then(text  => {
         var vocab = parseVocabularyFile(text);
         setVocabulary(vocab);
       })  
-  }, [setVocabulary]);
+  }, [setVocabulary, topicId]);
 
   return (
     <div>
