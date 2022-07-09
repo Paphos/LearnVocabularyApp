@@ -1,23 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import { parseVocabularyFile } from 'components/vocabulary';
+import { useParams, useSearchParams } from "react-router-dom";
 
 import './WordListPage.scss';
 
 export function WordListPage() {
+
+  let { langCode } = useParams();
+
+  if (langCode !== 'en' && langCode !== 'fr'){
+    langCode = 'en';
+  }
+
+
+  let [searchParams] = useSearchParams();
+  let topicId = searchParams.get("topicId");
+  if (!topicId){
+    topicId = "objects";
+  }
+
+
+
+
 
   const [vocabulary, setVocabulary] = useState(null);
   const [searchText, setSearchText] = useState(null);
 
   // Load vocabulary from CSV file
   useEffect(() => {
-    fetch('/database/vocabulary.csv')
+    fetch(`/database/${topicId}.csv`)
       .then((r) => r.text())
       .then(text  => {
         var vocab = parseVocabularyFile(text);
         setVocabulary(vocab);
       })  
-  }, [setVocabulary]);
+  }, [setVocabulary, topicId]);
 
   return (
     <div>
@@ -35,10 +53,10 @@ export function WordListPage() {
         <div>
           <table className='word-list-table'>
             <tbody>
-              {vocabulary.filter(wordObj => filterMatches(wordObj, searchText)).map((wordObject, i) => (
+              {vocabulary.filter(wordObj => filterMatches(wordObj, searchText, langCode)).map((wordObject, i) => (
                 <tr key={i}>
                   <td style={{ fontWeight: 'bold' }}>{wordObject.ko}</td>
-                  <td>{wordObject.en}</td>
+                  <td>{wordObject[langCode]}</td>
                 </tr>
               ))}
             </tbody>
@@ -53,7 +71,7 @@ export function WordListPage() {
   );
 }
 
-function filterMatches(wordObject, searchText){
+function filterMatches(wordObject, searchText, langCode){
   if (!searchText){
     return true;
   }
@@ -61,5 +79,5 @@ function filterMatches(wordObject, searchText){
   let lowerCaseSearchText = searchText.toLowerCase();
 
   return ((wordObject.ko && wordObject.ko.toLowerCase().includes(lowerCaseSearchText))
-    || (wordObject.en && wordObject.en.toLowerCase().includes(lowerCaseSearchText)))
+    || (wordObject[langCode] && wordObject[langCode].toLowerCase().includes(lowerCaseSearchText)))
 }

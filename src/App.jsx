@@ -13,10 +13,13 @@ export default function App() {
     <div>
       <Header/>
       <Routes>
-        <Route index={true} element={<HomePage />} />
-        <Route path='/review' element={<ReviewPage />} />
-        <Route path='/word-list' element={<WordListPage />} />
-        <Route path='*' element={<Navigate to="/" replace />} />
+        <Route index={true} element={<Navigate to="/en" replace />} />
+        <Route path=':langCode'>
+          <Route index={true} element={<HomePage />} />
+          <Route path='review' element={<ReviewPage />} />
+          <Route path='word-list' element={<WordListPage />} />
+        </Route>
+        <Route path='*' element={<Navigate to="/en" replace />} />
       </Routes>
       <ToastContainer/>
     </div>
