@@ -23,6 +23,7 @@
 도서관;library;la bibliothèque
 서점;bookstore;une librairie
 영화관;cinema;un cinéma
+카페/커파숍;coffee shop;coffee shop
 출입국 외국인 사무소;immigration office;le bureau d’immigration
 집;home;la maison
 학교;school;une école
@@ -37,7 +38,7 @@
 슈퍼마켓;supermarket;un supermarché
 공항;airport;un aéroport
 장소;a place;un lieu, un endroit
-성당;catholic church;une église catholique
+교회/성당;church;une église
 보건실;infirmary, nurse’s office;l’infirmerie
 고속버스 터미널;Express Bus Terminal;terminal de bus express
 길;a road;une route
