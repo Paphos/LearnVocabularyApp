@@ -3,6 +3,7 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 import { useKeyPress } from 'components/useKeyPress';
 import { parseVocabularyFile, shuffle } from 'components/vocabulary';
 import { useParams, useSearchParams } from "react-router-dom";
@@ -133,11 +134,21 @@ export function ReviewPage() {
 
           <div style={{ margin: '60px 15px 0 15px', textAlign: 'right' }}>
             <a className="dictionary-button"
-              href={`https://korean.dict.naver.com/koendict/#/search?query=${currentWord.ko}`}
+              href={`https://korean.dict.naver.com/koendict/#/search?query=${currentWord.ko.split('/')[0]}`}
               target="_blank" rel="noreferrer">
               Naver Dictionary <OpenInNewIcon style={{ transform: 'translateY(4px)', fontSize: '17px' }}/>
             </a>
           </div>
+
+          {topicId === 'verbs' && (
+            <div style={{ margin: '20px 15px 0 15px', textAlign: 'right' }}>
+              <a className="conjugator-button"
+                href={`https://koreanverb.app/?search=${currentWord.ko.split('/')[0]}`}
+                target="_blank" rel="noreferrer">
+                Verb Conjugator <AutoFixHighIcon style={{ transform: 'translateY(4px)', fontSize: '17px' }}/>
+              </a>
+            </div>
+          )}
           
         </div>
       )}

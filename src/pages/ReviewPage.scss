@@ -73,3 +73,15 @@
         background-color: #073eba;
     }
 }
+
+.conjugator-button{
+    padding: 8px 15px;
+    background-color: #174a0e;
+    color: #EEE;
+    border-radius: 5px;
+    font-size: 13px;
+
+    &:hover{
+        background-color: #328b22;
+    }
+}

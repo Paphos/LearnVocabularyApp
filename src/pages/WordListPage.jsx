@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SearchIcon from '@mui/icons-material/Search';
+import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 import { parseVocabularyFile } from 'components/vocabulary';
 import { useParams, useSearchParams } from "react-router-dom";
 
@@ -57,6 +58,15 @@ export function WordListPage() {
                 <tr key={i}>
                   <td style={{ fontWeight: 'bold' }}>{wordObject.ko}</td>
                   <td>{wordObject[langCode]}</td>
+                  {topicId === 'verbs' && (
+                    <td>
+                      <a className="conjugator-button2"
+                        href={`https://koreanverb.app/?search=${wordObject.ko.split('/')[0]}`}
+                        target="_blank" rel="noreferrer">
+                        <AutoFixHighIcon style={{ transform: 'translateY(2px)', fontSize: '15px' }}/>
+                      </a>
+                    </td>
+                  )}
                 </tr>
               ))}
             </tbody>

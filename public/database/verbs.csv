@@ -1,17 +1,17 @@
 좋아하다;to like;aimer
 싫어하다;to dislike;détester
 살다/살아요;to live in;habiter
-맞아요;That's correct.;C'est exact.
+맞다/맞아요;That's correct.;C'est exact.
 가다;to go;aller
 오다/와요;to come;venir
-알아요;to know;savoir, connaître
+알다/알아요;to know;savoir, connaître
 모르다/몰라요;to not know;ne pas savoir
-괜찮아요;It's okay.;C'est bon / ça va.
+괜찮다/괜찮아요;It's okay.;C'est bon / ça va.
 반갑습니다;Nice to meet you.;Ravi de vous rencontrer.
 실례합니다;Excuse me;Excusez-moi.
 죄송합니다;Excuse me, I'm sorry;Désolé, Excusez-moi.
 이야기하다;to speak, to chat;parler, discuter
-조용하다;to be quiet, calm;être calme, silencieux
+조용하다;quiet, calm;calme, silencieux
 식사하다;to eat;manger
 전화하다;to make a phone call;téléphoner à qq'un
 숙제하다;to do homework;faire ses devoirs
@@ -26,7 +26,7 @@
 여행하다;to travel;voyager
 수영하다;to swim;nager
 쇼핑하다;to go shopping;faire du shopping
-바쁘다;to be busy;être occupé
+바쁘다;busy; occupé
 만나다;to meet (someone);rencontrer / voir (des gens)
 보다/봐요;to see;voir, regarder
 읽다;to read;lire
@@ -45,26 +45,28 @@
 걷다;to walk;marcher
 시작하다;to begin, to start;commencer
 끝나다;to end, to finish;terminer
-재미있어요;to be fun, interesting;amusant, intéressant
-같아요;same, identical;pareil, identique
+재미있다;fun, interesting;amusant, intéressant
+같다/같아요;same, identical;pareil, identique
+다르다/달라요;different;différent
 이사하다;to move, to change residence;déménager
 결혼하다;to marry, to get married;se marier
 타다;to get on, board, take (bus, train);monter dans / prendre (le bus, le train)
 입다;to wear (clothes);porter (vêtements)
 신다;to wear (shoes);porter (chaussures)
 주다;to give;donner
-피곤하다;to be tired, exhausted;être fatigué
-아프다;to be sick, have pain;être malade, avoir mal
-예쁘다;to be pretty, beautiful;être joli
+피곤하다;tired, exhausted;fatigué
+아프다;sick, in pain;malade, avoir mal
+예쁘다;pretty, beautiful;joli
 쓰다;to write;écrire
-슬프다;to be sad;être triste
-나쁘다;to be bad, unpleasant;être mauvais
+슬프다;sad;triste
+나쁘다;bad, unpleasant;mauvais
 사진을 찍다;to take a photo;prendre une photo
 그림을 그리다;to paint (painting);peindre (peinture)
 초대하다;to invite;inviter
 청소하다;to clean;nettoyer
 준비하다;to prepare;préparer
 복습하다;to review;réviser
+연습하다;to practice;pratiquer
 다니다;to attend (school);assister à, aller à (école)
 졸업하다;to graduate;être diplômé
 빨래하다;to do laundry;faire sa lessive
@@ -76,17 +78,17 @@
 돈을 찾다;to withdraw money;retirer de l'argent
 돈을 보내다;to send money;envoyer de l'argent
 도착하다;to arrive;arriver
-기쁘다;to be happy/glad;être content/heureux
+기쁘다;happy/glad;content/heureux
 만들다;to make;faire, fabriquer
 -를 타다;to board, to take (vehicle);prendre/monter dans (véhicule)
 -에서 내리다;to get off at (station);descendre à (station)
 -로 갈아타다;to transfer;changer (transport)
 앉다;to sit;s'asseoir
 놀다;to have fun;s'amuser
-늦다;to be late;être tard, en retard
-가깝다/가까워요;to be near/close;être proche
-멀다;to be far;être éloigné
-복잡하다;to be complex, congested, crowded;complexe, emcombré
+늦다;late;tard, en retard
+가깝다/가까워요;near/close;proche
+멀다/멀어요;far;éloigné
+복잡하다;complex, congested, crowded;complexe, emcombré
 걸리다/걸려요;to take (time);prendre (du temps)
 지우다;to erase;effacer
 열다;to open;ouvrir
@@ -95,4 +97,25 @@
 사과하다;to apologize;s'excuser
 말하다;to say, to speak;dire, parler
 미안하다;to be sorry;être désolé
-빠르다;to be fast;être rapide
+빠르다/빨라요;fast;rapide
+운전하다;to drive;conduire
+크다/커요;big;grand
+작다/작아요;small;petit
+적다/적어요;a few;quelques
+싸다;cheap;pas cher
+비싸다;expensive;cher
+높다;high;haut
+낮다;low;bas
+길다;long;long
+짧다;short;court
+느리다;slow;lent
+덥다/더워요;hot;chaud
+춥다/추워요;cold;froid
+어렵다;difficult;difficile
+쉽다/쉬워요;easy;facile
+맛있다;tasty;bon (nourriture)
+맛없다;not tasty;mauvais (nourriture)
+무겁다;heavy;lourd
+가볍다;light (not heavy);léger
+불편하다;inconvenient;pas pratique
+친절하다;kind, hospitable;gentil, amical
