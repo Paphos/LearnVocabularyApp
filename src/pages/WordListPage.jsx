@@ -61,7 +61,7 @@ export function WordListPage() {
                   {topicId === 'verbs' && (
                     <td>
                       <a className="conjugator-button2"
-                        href={`https://koreanverb.app/?search=${wordObject.ko.split('/')[0]}`}
+                        href={`https://www.verbix.com/webverbix/korean/${wordObject.ko.split('/')[0].split(' ').slice(-1)[0]}`}
                         target="_blank" rel="noreferrer">
                         <AutoFixHighIcon style={{ transform: 'translateY(2px)', fontSize: '15px' }}/>
                       </a>

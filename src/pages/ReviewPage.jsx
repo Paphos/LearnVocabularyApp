@@ -143,7 +143,7 @@ export function ReviewPage() {
           {topicId === 'verbs' && (
             <div style={{ margin: '20px 15px 0 15px', textAlign: 'right' }}>
               <a className="conjugator-button"
-                href={`https://koreanverb.app/?search=${currentWord.ko.split('/')[0]}`}
+                href={`https://www.verbix.com/webverbix/korean/${currentWord.ko.split('/')[0].split(' ').slice(-1)[0]}`}
                 target="_blank" rel="noreferrer">
                 Verb Conjugator <AutoFixHighIcon style={{ transform: 'translateY(4px)', fontSize: '17px' }}/>
               </a>

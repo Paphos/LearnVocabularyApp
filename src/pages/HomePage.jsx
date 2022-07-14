@@ -28,7 +28,7 @@ export function HomePage() {
         <Line langCode={langCode} topicName={<>Objects &#128230;</>} topicId="objects" />
         <Line langCode={langCode} topicName={<>Places &#127969;</>} topicId="places" />
         <Line langCode={langCode} topicName={<>Jobs &#128104;&#8205;&#127859;</>} topicId="jobs" />
-        <Line langCode={langCode} topicName={<>Verbs &#129336;</>} topicId="verbs" />
+        <Line langCode={langCode} topicName={<>Verbs / Adjectives &#129336;</>} topicId="verbs" />
         <Line langCode={langCode} topicName={<>Adverbs / Connectors &#10160;</>} topicId="adverbs" />
         <Line langCode={langCode} topicName={<>Others &#128172;</>} topicId="others" />
       </div>
