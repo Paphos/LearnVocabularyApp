@@ -1,4 +1,8 @@
 받침;final consonant;la consonne finale
+격식체;Formal Polite Style;Formal Polite Style
+동사;action verb;un verbe d'action
+형용사;adjective;un adjectif
+명사;noun;un nom (grammaire)
 질문;question;une question
 이분;this person;cette personne
 취미;a hobby;un hobby
@@ -7,6 +11,22 @@
 전화번호;phone number;un numéro de téléphone
 주말;week-end;le week-end
 친구;friend;un ami
+직업;a job;un métier
+학생;student;un.e étudiant.e
+의사;doctor;un.e médecin
+선생님;teacher;un.e professeur
+회사원;office worker;un.e employé.e de bureau
+가수;singer;un chanteur, une chanteuse
+간호사;nurse;un.e infirmier.e
+영화배우;film actor;un acteur, une actrice
+요리사;a cook;un.e cuisinier.e
+운전기사;a driver;un chauffeur
+경찰;police officer;un.e policier.e
+군인;soldier;un soldat
+기자;journalist;un.e journaliste
+반갑습니다;Nice to meet you.;Ravi de vous rencontrer.
+실례합니다;Excuse me;Excusez-moi.
+죄송합니다;Excuse me, I'm sorry;Désolé, Excusez-moi.
 N층;-nth floor;-ième étage
 얼마예요;How much does it cost?;Combien ça coûte ?
 시간;time;le temps
@@ -32,7 +52,6 @@ N층;-nth floor;-ième étage
 시험;test, exam;un test, un examen
 늦게;late;en retard
 새;new;nouveau
-격식체;Formal Polite Style;Formal Polite Style
 위에;on, above;sur, dessus
 아래에;under, below;dessous
 앞에;in front of;devant
@@ -63,11 +82,13 @@ A하고 B사이;between A and B;entre A et B
 교통;transportation;les transports, la circulation
 가위바위보;rock, paper, scissors;pierre, papier, ciseaux
 축구;soccer;le football
-동사;action verb;un verbe d'action
-형용사;adjective;un adjectif
 생활;life, lifestyle;la vie, le style de vie
 콘서트;concert;un concert
 가족;family;la famille
 날씨;weather;la météo
 휴가;a leave, break, vacation (from work);des congés
 경치;the view, the scenery;la vue, le paysage
+아르바이트;part-time job;un travail à temps partiel
+키;height;la taille
+머리;hair;cheveux
+냄새;the smell;l'odeur, le parfum

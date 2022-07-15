@@ -58,7 +58,7 @@ export function WordListPage() {
                 <tr key={i}>
                   <td style={{ fontWeight: 'bold' }}>{wordObject.ko}</td>
                   <td>{wordObject[langCode]}</td>
-                  {topicId === 'verbs' && (
+                  {(topicId === 'verbs' || topicId === 'adjectives') && (
                     <td>
                       <a className="conjugator-button2"
                         href={`https://www.verbix.com/webverbix/korean/${wordObject.ko.split('/')[0].split(' ').slice(-1)[0]}`}

@@ -140,7 +140,7 @@ export function ReviewPage() {
             </a>
           </div>
 
-          {topicId === 'verbs' && (
+          {(topicId === 'verbs' || topicId === 'adjectives') && (
             <div style={{ margin: '20px 15px 0 15px', textAlign: 'right' }}>
               <a className="conjugator-button"
                 href={`https://www.verbix.com/webverbix/korean/${currentWord.ko.split('/')[0].split(' ').slice(-1)[0]}`}
