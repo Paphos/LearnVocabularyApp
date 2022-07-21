@@ -1,5 +1,6 @@
 받침;final consonant;la consonne finale
 격식체;Formal Polite Style;Formal Polite Style
+존댓말;honorific speech;langage honorifique
 동사;action verb;un verbe d'action
 형용사;adjective;un adjectif
 명사;noun;un nom (grammaire)
@@ -96,3 +97,22 @@ A하고 B사이;between A and B;entre A et B
 손님;customer;un client
 현금;cash (money);argent liquide
 색;color;la couleur
+이메일;e-mail;un e-mail
+아이;child;un enfant
+부모님;parent;les parents
+아버지;father;père
+어머니;mother;mère
+할아버지;grandfather;grand-père
+할머니;grandmother;grand-mère
+외할아버지;maternal grandfather;grand-père maternel
+외할머니;maternal grandmother;grand-mère maternel
+친한 친구;a close friend;un ami proche
+건강;health;la santé
+간식;a snack;un casse-croûte, un goûter
+형;older brother (boy speaking);grand frère (locuteur garçon)
+오빠;older brother (girl speaking);grand frère (locuteur fille)
+누나;older sister (boy speaking);grande sœur (locuteur garçon)
+언니;older sister (girl speaking);grande sœur (locuteur fille)
+남동생;younger brother;petit frère
+여동생;younger sister;petite sœur
+동생;younger sibling;petit frère ou sœur

@@ -25,7 +25,7 @@ export function HomePage() {
       <div style={{
         marginTop: '5px'
       }}>
-        <Line langCode={langCode} topicName={<>Objects &#128230;</>} topicId="objects" />
+        <Line langCode={langCode} topicName={<>Objects (물건) &#128230;</>} topicId="objects" />
         <Line langCode={langCode} topicName={<>Places (장소) &#127969;</>} topicId="places" />
         <Line langCode={langCode} topicName={<>Action verbs (동사) &#129336;</>} topicId="verbs" />
         <Line langCode={langCode} topicName={<>Adjectives (형용사) &#128525;</>} topicId="adjectives" />

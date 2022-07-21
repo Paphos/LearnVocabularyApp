@@ -11,6 +11,7 @@
 호주;Australia;l’Australie
 베트남;Vietnam;le Vietnam
 스위스;Switzerland;la Suisse
+스페인;Spain;l'Espagne
 유럽;Europe;l'Europe
 나라;country, nation;un pays
 호텔;hotel;un hôtel
@@ -44,7 +45,7 @@
 보건실;infirmary, nurse’s office;l’infirmerie
 고속버스 터미널;Express Bus Terminal;terminal de bus express
 길;a road;une route
-방;a room;une pièce (lieu)
+방;a room, bedroom;une pièce (lieu), une chambre
 공원;a park;un parc
 체육관;the gym;la salle de sport
 극장;cinema;un cinéma
@@ -56,3 +57,5 @@
 바다;the sea;la mer
 가게;shop;un magasin
 탈의실;fitting room;cabine d'essayage
+거실;living room;le salon, la salle de séjour
+부엌;kitchen;la cuisine
